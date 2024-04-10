@@ -1,0 +1,7 @@
+![1](https://github.com/maayanswisa/Gamers/assets/120381527/3d026d1d-7454-4862-9e04-2c7687041d6b)
+![2](https://github.com/maayanswisa/Gamers/assets/120381527/3b204f67-8d51-4db4-ac13-e939b45b97d3)
+![3](https://github.com/maayanswisa/Gamers/assets/120381527/50e62afc-3c97-4da4-8133-fbadc1d64f99)
+![4](https://github.com/maayanswisa/Gamers/assets/120381527/2c0eda12-226b-4ac5-92f0-74e699af2edb)
+![5](https://github.com/maayanswisa/Gamers/assets/120381527/37994446-db4c-4a56-9022-9f848df27308)
+![6](https://github.com/maayanswisa/Gamers/assets/120381527/f87975bf-8083-496f-9b01-a8bbc44de288)
+![7](https://github.com/maayanswisa/Gamers/assets/120381527/22a9b995-0b1a-4261-a6e7-b94650b55793)
