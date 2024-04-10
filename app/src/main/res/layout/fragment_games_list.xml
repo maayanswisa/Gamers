@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.GamesListFragment"
+    android:background="#100F0F">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#100F0F"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Best Video Games" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:background="#BF81CA"
+                android:hint="Search your game"
+                android:inputType="text"
+                android:outlineAmbientShadowColor="@color/white"
+                android:outlineSpotShadowColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:alpha="0.5"
+                android:background="#9E23B3"
+                android:text="Search"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="---------Filter by---------"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#EAACFA" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:background="#9E23B3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="category"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="platform"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="developer"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#9E23B3"
+            android:alpha="0.5">
+
+            <Spinner
+                android:id="@+id/spinner_cat"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+
+                android:layout_weight="1"
+                android:animateLayoutChanges="true"
+                android:scrollbarSize="10dp"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_plat"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:animateLayoutChanges="true"
+                android:scrollbarSize="10dp"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner_developer"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:animateLayoutChanges="true"
+                android:scrollbarSize="10dp"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGames"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#100F0F" />
+
+</LinearLayout>
